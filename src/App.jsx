@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import "./App.css";
 import { useState } from "react";
-import Card from "./components/cards";
+import Card from "./components/Cards";
 import { IoSearchOutline } from "react-icons/io5"
 import { ThreeDot } from "react-loading-indicators";
 
