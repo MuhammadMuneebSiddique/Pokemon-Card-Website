@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,body{
+  font-size: 10px;
+  background-color: #F0F3FF;
+}
+
+@media (width < 1420px) {
+  html,body{
+      font-size: 9.5px;
+  }
+}
+@media (width < 1320px) {
+  html,body{
+      font-size: 9px;
+  }
+}
+@media (width < 1220px) {
+  html,body{
+      font-size: 8.5px;
+  }
+}
+@media (width < 1120px) {
+  html,body{
+      font-size: 8px;
+  }
+}
+@media (width < 1020px) {
+  html,body{
+      font-size: 7.5px;
+  }
+}
+@media (width < 920px) {
+  html,body{
+      font-size: 7px;
+  }
+}
+@media (width < 820px) {
+  html,body{
+      font-size: 6.5px;
+  }
+}
+@media (width < 720px) {
+  html,body{
+      font-size: 6px;
+  }
+}
+@media (width < 620px) {
+  html,body{
+      font-size: 5.5px;
+  }
+}
+@media (width < 520px) {
+  html,body{
+      font-size: 5px;
+  }
+}
+@media (width < 420px) {
+  html,body{
+      font-size: 4.5px;
+  }
+}
+@media (width < 320px) {
+  html,body{
+      font-size: 4px;
+  }
+}
+
+.pokemon-card{
+  font-size: 10px;
+}
+
+:hover.pokemon-card{
+  scale: 1.05;
+  & .bg-Round{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 50%;
+    width: 35em;
+    height: 22em;
+    position: absolute;
+    top: -8em;
+    left: -2.6em;
+    & img{
+      margin-bottom: 2em;
+    }
+  }
+}
+
+.bg-Round{
+  border-radius: 71% 29% 54% 46% / 56% 62% 38% 44%;
+}
+
+
+@media (width < 1420px) {
+  .pokemon-card{
+      font-size: 9.5px;
+  }
+}
+@media (width < 1320px) {
+  .pokemon-card{
+      font-size: 9px;
+  }
+}
+@media (width < 1220px) {
+  .pokemon-card{
+      font-size: 8.5px;
+  }
+}
+@media (width < 1120px) {
+  .pokemon-card{
+      font-size: 8px;
+  }
+}
+@media (width < 1020px) {
+  .pokemon-card{
+      font-size: 7.5px;
+  }
+}
+@media (width < 920px) {
+  .pokemon-card{
+      font-size: 7px;
+  }
+}
+@media (width < 820px) {
+  .pokemon-card{
+      font-size: 6.5px;
+  }
+}
+@media (width < 720px) {
+  .pokemon-card{
+      font-size: 6px;
+  }
+}
+@media (width < 620px) {
+  .pokemon-card{
+      font-size: 5.5px;
+  }
+}
+@media (width < 520px) {
+  .pokemon-card{
+      font-size: 5px;
+  }
+}
+@media (width < 420px) {
+  .pokemon-card{
+      font-size: 4.5px;
+  }
+}
+@media (width < 320px) {
+  .pokemon-card{
+      font-size: 4px;
+  }
+}
+
+
+
+.pokemon-container{
+  font-size: 10px;
+}
+
+@media (width < 1420px) {
+  .pokemon-container{
+      font-size: 9.5px;
+  }
+}
+@media (width < 1320px) {
+  .pokemon-container{
+      font-size: 9px;
+  }
+}
+@media (width < 1220px) {
+  .pokemon-container{
+      font-size: 8.5px;
+  }
+}
+@media (width < 1120px) {
+  .pokemon-container{
+      font-size: 8px;
+  }
+}
+@media (width < 1020px) {
+  .pokemon-container{
+      font-size: 7.5px;
+  }
+}
+@media (width < 920px) {
+  .pokemon-container{
+      font-size: 7px;
+  }
+}
+@media (width < 820px) {
+  .pokemon-container{
+      font-size: 6.5px;
+  }
+}
+@media (width < 720px) {
+  .pokemon-container{
+      font-size: 6px;
+  }
+}
+@media (width < 620px) {
+  .pokemon-container{
+      font-size: 5.5px;
+      padding: 0em 2rem;
+  }
+}
+@media (width < 520px) {
+  .pokemon-container{
+      font-size: 5px;
+      & .search-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+      }
+  }
+}
+@media (width < 420px) {
+  .pokemon-container{
+      font-size: 4.5px;
+  }
+}
+@media (width < 320px) {
+  .pokemon-container{
+      font-size: 4px;
+  }
+}
+
