@@ -14,7 +14,7 @@ function App() {
   // fetching data from api
   const fetchData = async () => {
     try {
-      const fetchAPI = await fetch("https://pokeapi.co/api/v2/pokemon?limit=100")
+      const fetchAPI = await fetch("https://pokeapi.co/api/v2/pokemon?limit=500")
       const { results } = await fetchAPI.json()
       const detailedData = results.map(async (curElem)=>{
         const res = await fetch(curElem.url)
